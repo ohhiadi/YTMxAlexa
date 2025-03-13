@@ -10,10 +10,10 @@ app = Flask(__name__)
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
-youtube_api_key = "YOUR_YOUTUBE_API_KEY"
+youtube_api_key = "AIzaSyBNGNPUx_0_BtyJ62dVUv9_mG6EFHrrlCU"
 
 # Replace with your Render domain
-RENDER_DOMAIN = "https://your-render-app.onrender.com"
+RENDER_DOMAIN = "https://ytmxalexa.onrender.com"
 
 def get_video_id(song_name):
     """Fetch the video ID of a YouTube Music song using YouTube API."""
